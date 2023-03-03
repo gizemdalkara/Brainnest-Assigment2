@@ -1,0 +1,20 @@
+.img {
+  border: 2px solid darkgray;
+  border-radius: 40%;
+}
+.link-list .link-item a {
+  background-color: aquamarine;
+}
+.header-list .header-item a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", fantasy;
+  color: palevioletred;
+  font-size: 30px;
+}
+.about-detail {
+  color: darkmagenta;
+}
+.about-list {
+  font-weight: 400;
+  font-size: 18px;
+  color: crimson;
+}

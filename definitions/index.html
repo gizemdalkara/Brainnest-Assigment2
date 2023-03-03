@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Definitions </title>
+</head>
+
+<body>
+    <h3> 1. What are the main differences between external, internal, and inline CSS? </h3>
+    <p> Inline CSS: Requires the style attribute placed inside an HTML element.
+        Internal CSS: Requires the style element placed inside the head section of an HTML file.
+        External CSS: Requires the link element placed inside the head section of an HTML file.
+    </p>
+    <h3> 2. What is the syntax for class and ID selectors? </h3>
+    <p> CLASS: We can attach multiple class selectors to an element.
+        .class{ // declarations of CSS }
+        ID: We can attach only one ID selector to an element.
+        #id{ // declarations of CSS }
+    </p>
+    <h3> 3. How would you apply a single rule to two different selectors? </h3>
+    <p> When you group CSS selectors, you apply the same styles to several different elements without repeating the
+        styles in your stylesheet.
+        Instead of having two, three, or more CSS rules that do the same thing, you use a single CSS rule that
+        accomplishes the same thing
+    </p>
+    <h3> 4. Given an element that has an id of title and a class of primary, how would you use both attributes for a
+        single rule? </h3>
+    <p> </p>
+    <h3> 5. What does the descendant combinator do? </h3>
+    <p> The descendant combinator, typically represented by a single space (" ") character and
+        combines two selectors such that elements matched by the second selector are selected
+        if they have an ancestor element matching the first selector.
+    </p>
+    <h3> 6. Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the
+        higher specificity? </h3>
+    <p> If there are two or more declarations providing different property values for the same element, the declaration
+        value in the style block having the matching selector with the greatest algorithmic weight gets applied.
+        The value represents the count of selector components in each weight category and is written as ID - CLASS -
+        TYPE.
+        The three columns are created by counting the number of selector components for each selector weight category in
+        the selectors that match the element.
+    </p>
+    <h3> 7. From inside to outside, what is the order of box-model properties? </h3>
+    <p> The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders,
+        padding, and the actual content. </p>
+    <h3> 8. What does the box-sizing CSS property do? </h3>
+    <p> The box-sizing CSS property sets how the total width and height of an element is calculated. </p>
+    <h3> 9. What is the difference between the standard and alternative box model? </h3>
+    <p> If you are using the standard box model, the size of the border is added to the width and height of the content
+        box.
+        If you are using the alternative box model then the size of the border makes the content box smaller as it takes
+        up some of that available width and height of the element box.
+    </p>
+    <h3> 10. Would you use margin or padding to create more space between 2 elements? </h3>
+    <p> we use margins when you're adjusting the spacing of an element in relation to another element. </p>
+    <h3> 11. Would you use margin or padding to create more space between the contents of an element and its border?
+    </h3>
+    <p> we use padding when setting the space between an element's content and its border. </p>
+    <h3> 12. Would you use margin or padding if you wanted two elements to overlap each other? </h3>
+    <p> we can use margin, if you want elements to overlap. </p>
+    <h3> 13. What is the difference between a block element and an inline element? </h3>
+    <p> Block elements cover space from left to right as far as it can go. Inline elements only cover the space as
+        bounded by the tags in the HTML element.
+        Block elements have top and bottom margins. Inline elements don't have a top and bottom margin
+    </p>
+    <h3> 14. What is the difference between an inline element and an inline-block element? </h3>
+    <p> Inline element, doesn't start on a new line and only occupy just the width it requires. You can't set the width
+        or height. Inline-block, formatted just like the inline element, where it doesn't start on a new line.
+        But, you can set width and height values.
+    </p>
+    <h3> 15. Is an h1 block or inline? </h3>
+    <p> It is block element. </p>
+    <h3> 16. Is button block or inline? </h3>
+    <p> Button is a block element. </p>
+    <h3> 17. Is div block or inline? </h3>
+    <p> Div is a block element.</p>
+    <h3> 18. Is span block or inline? </h3>
+    <p> Span is an inline element. </p>
+    <h3> 19. What is the difference between a flex container and a flex item? </h3>
+    <p> Flex Container is the parent element while Flex Item represents the children. </p>
+    <h3> 20. How do you create a flex item? </h3>
+    <p> To create a flex container, we set the value of the area's container's display property to flex or inline-flex .
+        As soon as we do this the direct children of that container become flex items.
+    </p>
+    <h3> 21. What are the 3 values defined in the shorthand flex property? </h3>
+    <p> Three-value syntax: the values must be in the following order: a valid value for flex-grow . a valid value for
+        flex-shrink . a valid value for flex-basis. </p>
+    <h3> 22. How do you make flex items arrange themselves vertically instead of horizontally? </h3>
+    <p> Use justify-content for the alignment of items horizontally. Use align-items for the alignment items vertically.
+    </p>
+    <h3> 23. What is the difference between justify-content and align-items? </h3>
+    <p> justify-content, controls alignment of all items on the main axis.
+        align-items, controls alignment of all items on the cross axis.
+    </p>
+    <h3> 24. How do you use flexbox to completely center a div inside a flex container? </h3>
+    <p> We use 1. display: flex; 2. align-items : center; and the last step justify-content: center; </p>
+    <h3> 25. What is the difference between justify-content: space-between and justify-content: space-around? </h3>
+    <p> space-around, places items with space distributed evenly around the start and end of the list.
+        space-between, evenly distributes space items between the first item is set at the start of the container, and
+        the last item is set at the end.
+    </p>
+</body>
+
+</html>
